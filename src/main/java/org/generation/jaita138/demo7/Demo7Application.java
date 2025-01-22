@@ -12,6 +12,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Demo7Application implements CommandLineRunner {
 
+	/*
+	 * QUERY IDEAS:
+	 * - trova tutti i parchi con area maggiore di 8000
+	 * - trova tutti i parchi con nome che inizia con "C"
+	 * - trova tutti i parchi con piu' di 3 shop e piu' di 3 toilet
+	 * - trova tutti i parchi con area tra 5000 e 5500
+	 * 
+	 * ...
+	 */
+
 	@Autowired
 	private ParkService parkService;
 
